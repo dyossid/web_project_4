@@ -1,0 +1,17 @@
+.profile__info {
+  display: grid;
+  color: white;
+  grid-template-areas:
+    "name edit"
+    "description description";
+}
+@media screen and (max-width: 601px) {
+  .profile__info {
+    grid-template-areas:
+      "name edit"
+      "description description";
+    align-items: center;
+    justify-content: center;
+    row-gap: ;
+  }
+}

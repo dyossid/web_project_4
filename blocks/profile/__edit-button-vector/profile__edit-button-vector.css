@@ -1,0 +1,14 @@
+.profile__edit-button-vector {
+  width: 10px;
+  height: 10px;
+}
+.profile__edit-button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+@media screen and (max-width: 601px) {
+  .profile__edit-button-vector {
+    width: 7.5px;
+    height: 7.5px;
+  }
+}

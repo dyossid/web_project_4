@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="page">
+    <div class="modal" id="edit-profile-modal">
+      <div class="modal__content">
+        <button class="modal__close-button">
+          <img
+            class="modal__close-button-vector"
+            src="/images/Close_Icon.png"
+            alt="X to close window"
+          />
+        </button>
+        <h2 class="modal__title">Edit Profile</h2>
+        <form class="modal__form" id="edit-profile-form">
+          <input
+            name="name"
+            class="modal__form-edit-name"
+            placeholder="Jacques Cousteau"
+          />
+          <input
+            name="description"
+            class="modal__form-edit-description"
+            placeholder="Explorer"
+          />
+          <button class="modal__submit-button" type="submit">Save</button>
+        </form>
+      </div>
+    </div>
+
+    <header class="header">
+      <img
+        class="header__vector"
+        src="/images/Vector.png"
+        alt="Text logo Around the U.S"
+      />
+      <img class="header__line" src="/images/Line.png" alt="A Separator Line" />
+    </header>
+    <section class="profile">
+      <img
+        class="profile__image"
+        src="/images/oldguyredhat.jpg"
+        alt="An image of the explorer Jacques Cousteau"
+      />
+      <div class="profile__info">
+        <h1 class="profile__name" id="profile-name">Jacques Cousteau</h1>
+        <p class="profile__descrition" id="profile-description">Explorer</p>
+        <button class="profile__edit-button">
+          <img
+            class="profile__edit-button-vector"
+            src="/images/Edit_Button.png"
+            alt="image of a pencil to edit the profile name"
+            id="open-modal-button"
+          />
+        </button>
+      </div>
+      <button class="profile__add-button">
+        <img
+          class="profile__add-button-vector"
+          src="images/Add_Button.png"
+          alt="image of a plus to add a photo"
+        />
+      </button>
+    </section>
+    <section class="cards">
+      <div class="card">
+        <img
+          class="card__image"
+          src="/images/view1.jpg"
+          alt="image of Yosemite Valley"
+        />
+        <div class="card__image-description">
+          <p class="card__image-description-text">Yosemite Valley</p>
+          <img
+            class="card__heart"
+            src="/images/heartvector.png"
+            alt="image of a heart to like the photo"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <img
+          class="card__image"
+          src="/images/view2.png"
+          alt="image of Lake Louise"
+        />
+        <div class="card__image-description">
+          <p class="card__image-description-text">Lake Louise</p>
+          <img
+            class="card__heart"
+            src="/images/heartvector.png"
+            alt="image of a heart to like the photo"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <img
+          class="card__image"
+          src="/images/view3.png"
+          alt="image of Bald Mountains"
+        />
+        <div class="card__image-description">
+          <p class="card__image-description-text">Bald Mountains</p>
+          <img
+            class="card__heart"
+            src="/images/heartvector.png"
+            alt="image of a heart to like the photo"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <img
+          class="card__image"
+          src="/images/view4.png"
+          alt="image of Latemar"
+        />
+        <div class="card__image-description">
+          <p class="card__image-description-text">Latemar</p>
+          <img
+            class="card__heart"
+            src="/images/heartvector.png"
+            alt="image of a heart to like the photo"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <img
+          class="card__image"
+          src="/images/view5.png"
+          alt="image of Vanoise Nationa..."
+        />
+        <div class="card__image-description">
+          <p class="card__image-description-text">Vanoise Nationa...</p>
+          <img
+            class="card__heart"
+            src="/images/heartvector.png"
+            alt="image of a heart to like the photo"
+          />
+        </div>
+      </div>
+      <div class="card">
+        <img
+          class="card__image"
+          src="/images/view6.png"
+          alt="image of Lago di Braies"
+        />
+        <div class="card__image-description">
+          <p class="card__image-description-text">Lago di Braies</p>
+          <img
+            class="card__heart"
+            src="/images/heartvector.png"
+            alt="image of a heart to like the photo"
+          />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="footer__copyrights">© 2021 Around The U.S.</p>
+    </footer>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
