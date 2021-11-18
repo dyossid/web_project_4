@@ -5,3 +5,8 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+@media screen and (max-width: 940px) {
+  .header {
+    margin-left: 20px;
+  }
+}
