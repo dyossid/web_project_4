@@ -7,33 +7,34 @@
     <title>Profile</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
-  <body class="page">
-    <div class="modal" id="edit-profile-modal">
-      <div class="modal__content">
-        <button class="modal__close-button">
-          <img
-            class="modal__close-button-vector"
-            src="/images/Close_Icon.png"
-            alt="X to close window"
-          />
-        </button>
-        <h2 class="modal__title">Edit Profile</h2>
-        <form class="modal__form" id="edit-profile-form">
-          <input
-            name="name"
-            class="modal__form-edit-name"
-            placeholder="Jacques Cousteau"
-          />
-          <input
-            name="description"
-            class="modal__form-edit-description"
-            placeholder="Explorer"
-          />
-          <button class="modal__submit-button" type="submit">Save</button>
-        </form>
-      </div>
+  <div class="modal" id="edit-profile-modal">
+    <div class="modal__content">
+      <button class="modal__close-button">
+        <img
+          class="modal__close-button-vector"
+          src="/images/Close_Icon.png"
+          alt="X to close window"
+        />
+      </button>
+      <h2 class="modal__title">Edit Profile</h2>
+      <form class="modal__form" id="edit-profile-form">
+        <input
+          name="name"
+          class="modal__form-edit-name"
+          placeholder="Jacques Cousteau"
+          id="name-holder"
+        />
+        <input
+          name="description"
+          class="modal__form-edit-description"
+          placeholder="Explorer"
+          descriptionHolder="description-holder"
+        />
+        <button class="modal__submit-button" type="submit">Save</button>
+      </form>
     </div>
-
+  </div>
+  <body class="page">
     <header class="header">
       <img
         class="header__vector"

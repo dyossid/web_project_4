@@ -5,6 +5,12 @@
     "name edit"
     "description description";
 }
+@media screen and (max-width: 940px) {
+  .profile__info {
+    justify-items: center;
+  }
+}
+
 @media screen and (max-width: 601px) {
   .profile__info {
     grid-template-areas:
@@ -12,6 +18,5 @@
       "description description";
     align-items: center;
     justify-content: center;
-    row-gap: ;
   }
 }

@@ -16,6 +16,8 @@ editProfileCloseButton.addEventListener("click", () => {
 
 openFormButton.addEventListener("click", () => {
   editProfileModal.classList.add("modal_open");
+  nameInput.value = profileName.textContent;
+  descriptionInput.value = profileDescription.textContent;
 });
 
 editProfileModal.addEventListener("click", (e) => {
