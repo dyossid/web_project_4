@@ -5,6 +5,7 @@
     "name edit"
     "description description";
 }
+
 @media screen and (max-width: 940px) {
   .profile__info {
     justify-items: center;

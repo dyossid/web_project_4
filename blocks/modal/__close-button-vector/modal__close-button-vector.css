@@ -1,11 +1,11 @@
 .modal__close-button-vector {
-  width: 40px;
-  height: 40px;
+  width: 33px;
+  height: 33px;
 }
 
 @media screen and (max-width: 601px) {
   .modal__close-button-vector {
-    width: 26px;
-    height: 26px;
+    width: 20px;
+    height: 20px;
   }
 }

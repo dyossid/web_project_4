@@ -8,6 +8,7 @@
   background-color: transparent;
   border: 1px solid white;
 }
+
 @media screen and (max-width: 601px) {
   .profile__edit-button {
     margin-top: 12px;

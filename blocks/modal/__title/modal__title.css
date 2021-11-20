@@ -1,10 +1,7 @@
 .modal__title {
   margin-top: 34px;
   margin-left: 36px;
-  margin-bottom: 54px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 900;
+  margin-bottom: 43px;
   font-size: 24px;
   line-height: 29px;
 }
@@ -13,10 +10,7 @@
   .modal__title {
     margin-top: 25px;
     margin-left: 22px;
-    margin-bottom: 76px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
+    margin-bottom: 74px;
     font-size: 18px;
     line-height: 22px;
   }

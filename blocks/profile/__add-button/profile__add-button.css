@@ -6,11 +6,19 @@
   min-width: 150px;
   background-color: transparent;
   border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
 }
+
 .profile__add-button:hover {
   cursor: pointer;
   opacity: 0.5;
 }
+
 @media screen and (max-width: 940px) {
   .profile__add-button {
     margin: 36px auto 0;

@@ -1,20 +1,21 @@
 .modal__form-edit-description {
-  margin: 0 auto 48px;
-  border: 1px solid #000000;
+  margin: 0 auto 50px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: 0;
+  max-width: 358px;
+  width: 100%;
   border-top: transparent;
   border-right: transparent;
   border-left: transparent;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 30px;
-  width: 358px;
+  padding: 0;
 }
 
 @media screen and (max-width: 601px) {
   .modal__form-edit-description {
-    width: 238px;
+    max-width: 238px;
     line-height: 26px;
+    margin-bottom: 46px;
   }
 }

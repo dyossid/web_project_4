@@ -14,14 +14,14 @@
   cursor: pointer;
   outline: inherit;
 }
+
 .profile__add-button-vector:hover {
   cursor: pointer;
   opacity: 0.5;
 }
-/* @media screen and (max-width: 601px) {
-  .profile__add-button {
-    position: initial;
-    width: 300px;
-    grid-area: button;
+@media screen and (max-width: 601px) {
+  .profile__add-button-vector {
+    width: 15px;
+    height: 15px;
   }
-} */
+}

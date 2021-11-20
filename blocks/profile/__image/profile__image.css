@@ -9,6 +9,7 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
 @media screen and (max-width: 601px) {
   .profile__image {
     margin-right: 0;
