@@ -5,6 +5,7 @@
   position: absolute;
   top: -37px;
   right: -37px;
+  transition: 0.3s;
 }
 
 .modal__close-button:hover {

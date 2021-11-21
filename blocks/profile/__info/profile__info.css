@@ -17,7 +17,7 @@
     grid-template-areas:
       "name edit"
       "description description";
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
   }
 }

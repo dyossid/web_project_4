@@ -7,6 +7,7 @@
   margin-left: 18px;
   background-color: transparent;
   border: 1px solid white;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 601px) {

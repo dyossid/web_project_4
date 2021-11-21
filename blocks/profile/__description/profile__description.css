@@ -5,10 +5,13 @@
   line-height: 22px;
   text-overflow: ellipsis;
   overflow: hidden;
+  max-width: 415px;
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 601px) {
   .profile__description {
+    max-width: 282px;
     justify-self: center;
     font-size: 14px;
     line-height: 17px;
