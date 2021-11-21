@@ -29,6 +29,7 @@ function openEditForm() {
     descriptionInput.value = profileDescription.textContent;
   });
 }
+
 function changeInputForm() {
   editProfileForm.addEventListener("submit", (e) => {
     e.preventDefault();
