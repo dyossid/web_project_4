@@ -24,22 +24,17 @@ function closeEditForm() {
 function openEditForm() {
   openFormButton.addEventListener("click", () => {
     editProfileModal.classList.add("modal_open");
+
     nameInput.value = profileName.textContent;
     descriptionInput.value = profileDescription.textContent;
   });
 }
-
-editProfileModal.addEventListener("click", (e) => {
-  if (e.target === editProfileModal) {
-    editProfileModal.classList.remove("modal_open");
-  }
-});
-
 function changeInputForm() {
   editProfileForm.addEventListener("submit", (e) => {
     e.preventDefault();
     profileName.textContent = nameInput.value;
     profileDescription.textContent = descriptionInput.value;
+
     editProfileModal.classList.remove("modal_open");
     editProfileForm.reset();
   });
