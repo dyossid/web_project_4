@@ -22,7 +22,6 @@
 @import url("../blocks/card/__image-description/card__image-description.css");
 @import url("../blocks/card/__image-description-text/card__image-description-text.css");
 @import url("../blocks/card/__heart/card__heart.css");
-@import url("../blocks/card/__heart/_active/card__heart_active.css");
 
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__copyrights/footer__copyrights.css");
